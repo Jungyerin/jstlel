@@ -7,7 +7,18 @@
 </head>
 <body>
 	<h3>데이터 형</h3>
-
-	
+	<!-- 이름으로 값을 가지고 올 수있다 -->
+	${iVal }
+	<br>
+	${fVal }
+	<br>
+	${bVal }
+	<br>
+	${sVal }
+	<br>
+	-----------${nullVal }------------
+	<br>
+	${myVal }
+	<br>	
 </body>
 </html>

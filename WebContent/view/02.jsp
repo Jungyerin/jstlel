@@ -7,6 +7,16 @@
 </head>
 <body>
 	<h3>연산</h3>
-
+	산술연산
+	${iVal * 10 + 100 }
+	<br>
+	${iVal * 10 <= fval * 2 }
+	<br>
+	${iVal * 10 <= fval * 2 && fVal==iVal*2}
+	<br>
+	${empty myVal  } <!-- myVal이 null인지 아닌지  -->
+	<br>
+	${not empty myVal }
+	<br>
 </body>
 </html>

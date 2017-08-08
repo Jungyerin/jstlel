@@ -16,6 +16,7 @@ public class _03Servlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
 		request.getRequestDispatcher( "/view/03.jsp" ).forward( request, response );
 	}
 
